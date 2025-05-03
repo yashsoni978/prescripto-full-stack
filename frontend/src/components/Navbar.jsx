@@ -33,7 +33,7 @@ const Navbar = () => {
           <li className='py-1'>CONTACT</li>
         </NavLink>
         <a
-          href="http://localhost:5174/"
+          href="https://prescripto-admin-phi-seven.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-1 border rounded-full text-sm text-black hover:bg-gray-100 flex items-center"
