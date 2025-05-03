@@ -15,13 +15,7 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-const allowedOrigins = [
-  'https://prescripto-frontend-gamma.vercel.app/'
-];
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true
-}));
+app.use(cors())
 
 // api endpoints
 app.use("/api/user", userRouter)
